@@ -13,7 +13,7 @@
 <version>
 	<application>urnDNB</application>
 	<type>plugins.pubIds</type>
-	<release>1.2.0.0</release>
+	<release>1.2.1.0</release>
 	<date>2015-06-15</date>
 	<lazy-load>1</lazy-load>
 	<class>URNDNBPubIdPlugin</class>
