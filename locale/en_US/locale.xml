@@ -16,7 +16,7 @@
 
 	<!-- plugin -->
 	<message key="plugins.pubIds.urnDNB.displayName">DNB URN</message>
-	<message key="plugins.pubIds.urnDNB.description">This plugin enables the assignment of the Uniform Resource Names according to the policies of the Deutsche Nationalbibliothek.</message>
+	<message key="plugins.pubIds.urnDNB.description">This plugin enables the assignment of the Uniform Resource Names (URN) according to the policies of the Deutsche Nationalbibliothek.</message>
 
 	<!-- URN manager options, setting -->
 	<message key="plugins.pubIds.urnDNB.manager.settings.description"><![CDATA[According to the URN policy of the Deutsche Nationalbibliothek (DNB) the URNs can only be assigned to the galleys that will be archived, i.e. to the PDF galleys in the main article language.<br />Please do the following setup steps to be able to manage and use URNs in OJS:]]></message>
@@ -54,6 +54,10 @@
 	<message key="plugins.pubIds.urnDNB.urnSuffix">URN</message>
 	<message key="plugins.pubIds.urnDNB.urnSuffix.description">Custom URN Suffix for this item.</message>
 	<message key="plugins.pubIds.urnDNB.calculateCheckNo">Calculate Check Number</message>
+	<message key="plugins.pubIds.urnDNB.urnNotYetGenerated">You see a preview of the URN which might be incomplete. The URN is not generated yet. As soon as the article is generated and the public galley is loaded the URN will be generated automatically.</message>
+	<message key="plugins.pubIds.urnDNB.excludePubObject">Exclude this galley from generating an URN.</message>
+	<message key="plugins.pubIds.urnDNB.urnClear">Delete URN</message>
+	<message key="plugins.pubIds.urnDNB.urnClear.description">Check this box to delete the existing URN for this galley.</message>
 
 	<!-- consider URNs at other places in the system -->
 	<message key="plugins.pubIds.urnDNB.rt.metadata.urn">Uniform Resource Name</message>
