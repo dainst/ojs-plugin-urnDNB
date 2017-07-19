@@ -1,19 +1,23 @@
 <?php
 
 /**
- * @file index.php
- *
- * Author: Božana Bokan, Center for Digital Systems (CeDiS), Freie Universität Berlin
- * Last update: September 25, 2015
- * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
- *
- * @package plugins.pubIds.urnDNB
- *
- * @brief Wrapper for DNB URN plugin.
- *
+ * @defgroup plugins_pubIds_urndnb URNdnb Pub ID Plugin
  */
 
-require_once('URNDNBPubIdPlugin.inc.php');
-return new URNDNBPubIdPlugin();
+/**
+ * @file plugins/pubIds/urndnb/index.php
+ *
+ * Copyright (c) 2014-2017 Simon Fraser University
+ * Copyright (c) 2003-2017 John Willinsky
+ * DNB-Mod 2017 by Philipp Franck / DAI
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ *
+ * @ingroup plugins_pubIds_urndnb
+ * @brief Wrapper for urndnb plugin.
+ *
+ */
+require_once('URNdnbPubIdPlugin.inc.php');
+
+return new URNdnbPubIdPlugin();
 
 ?>

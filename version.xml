@@ -2,19 +2,20 @@
 <!DOCTYPE version SYSTEM "../../../lib/pkp/dtd/pluginVersion.dtd">
 
 <!--
-  * version.xml
+  * plugins/pubIds/urndnb/version.xml
   *
-  * Author: Božana Bokan, Center for Digital Systems (CeDiS), Freie Universität Berlin
-  * Last update: September 25, 2015  
+  * Copyright (c) 2014-2017 Simon Fraser University
+  * Copyright (c) 2003-2017 John Willinsky
+  * DNB-Mod 2017 by Philipp Franck / DAI
   * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
   *
   * Plugin version information.
   -->
 <version>
-	<application>urnDNB</application>
+	<application>urndnb</application>
 	<type>plugins.pubIds</type>
-	<release>1.2.1.0</release>
-	<date>2015-06-15</date>
+	<release>1.0.0.0</release>
+	<date>2017-19-07</date>
 	<lazy-load>1</lazy-load>
-	<class>URNDNBPubIdPlugin</class>
+	<class>URNdnbPubIdPlugin</class>
 </version>
