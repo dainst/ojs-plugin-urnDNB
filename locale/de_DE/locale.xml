@@ -38,6 +38,7 @@
 	<message key="plugins.pubIds.urndnb.form.customIdentifierNotUnique">Der angegebene URN-Suffix wird bereits für ein anderes veröffentlichtes Element benutzt. Bitte vergeben Sie einen eindeutigen URN-Suffix für jedes Element.</message>
 	<message key="plugins.pubIds.urndnb.manager.settings.checkNo.label">Die Prüfziffer wird automatisch berechnet und am Ende, als letzte Ziffer des URN, angefügt.</message>
 	<message key="plugins.pubIds.urndnb.manager.settings.checkNo">Prüfziffer</message>
+	<message key="plugins.pubIds.urndnb.manager.settings.description">Please configure the URN plugin to be able to manage and use URNs in OJS:</message>
 	<message key="plugins.pubIds.urndnb.manager.settings.enableIssueURN">URN werden Ausgaben zugewiesen werden.</message>
 	<message key="plugins.pubIds.urndnb.manager.settings.enableRepresentationURN">URN werden Fahnen (z.B. HTML- oder PDF-Dateien) zugewiesen werden.</message>
 	<message key="plugins.pubIds.urndnb.manager.settings.enableSubmissionURN">URN werden Artikeln zugewiesen werden.</message>
@@ -59,7 +60,7 @@
 	<message key="plugins.pubIds.urndnb.manager.settings.urndnbResolver">Resolver-URL</message>
 	<message key="plugins.pubIds.urndnb.manager.settings.urndnbSubmissionSuffixPatternRequired">Bitte geben Sie das URN-Suffix-Muster für Artikel ein.</message>
 	<message key="plugins.pubIds.urndnb.manager.settings.urndnbSuffixCustomIdentifier">Enter an individual URN suffix for each published item. You'll find an additional URN input field on each item's metadata page.</message>
-	<message key="plugins.pubIds.urndnb.manager.settings.urndnbSuffixDefault.description"><![CDATA[%j.v%vi%i for issues<br />%j.v%vi%i.%a for articles<br />%j.v%vi%i.%a.g%g for galleys.]]></message>
+	<message key="plugins.pubIds.urndnb.manager.settings.urndnbSuffixDefault.description"><![CDATA[%j.v%vi%i.%a.g%g]]></message>
 	<message key="plugins.pubIds.urndnb.manager.settings.urndnbSuffixDefault">Die Standardmuster benutzen.</message>
 	<message key="plugins.pubIds.urndnb.manager.settings.urndnbSuffix.description">A URN suffix can take any form, but must be unique among all publishing objects with the same URN prefix assigned:</message>
 	<message key="plugins.pubIds.urndnb.manager.settings.urndnbSuffixPattern.example">vol%viss%ipp%p würde z.B. einen URN-Suffix "vol3iss2pp230" erzeugen.</message>
