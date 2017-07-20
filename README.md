@@ -27,7 +27,9 @@ Tested with OJS 3.0.2.0
 ### Installation
 
     cd /<your-oj3-root>/plugins/pubIds/urnDNB
-    git clone git clone -b ojs3 https://github.com/dainst/ojs-plugin-urnDNB.git urnDNB
+    git clone -b ojs3 https://github.com/dainst/ojs-plugin-urnDNB.git urnDNB
+    
+**Imprtant: the folder MUST be named "urnDNB".**
     
 ### Contact/Support
 https://github.com/dainst/ojs-plugin-urnDNB/issues
